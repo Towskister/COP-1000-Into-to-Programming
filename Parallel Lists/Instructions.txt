@@ -1,0 +1,42 @@
+Summary
+In this lab, you use what you have learned about parallel lists to complete a partially completed Python program.
+
+The program should either print the name and price for a coffee add-in from the Jumpin’ Jive Coffee Shop or it should print the message "Sorry, we do not carry that.".
+
+Read the problem description carefully before you begin. The data file provided for this lab includes the necessary input statements. You need to write the part of the program that searches for the name of the coffee add-in(s) and either prints the name and price of the add-in or prints the error message if the add-in is not found. Comments in the code tell you where to write your statements.
+
+Instructions
+Study the prewritten code to make sure you understand it.
+Write the code that searches the list for the name of the add-in ordered by the customer.
+Write the code that prints the name and price of the add-in or the error message, and then write the code that prints the cost of the total order.
+Execute the program using the following data and verify that the output is correct:
+Cream
+Caramel
+Whiskey
+chocolate
+Chocolate
+Cinnamon
+Vanilla
+
+Grading
+Test Case: Whiskey
+
+Input:
+Whiskey
+XXX
+
+Expected Output
+1.75
+
+Test Case: Invalid Flavors
+
+Input:
+Caramel
+chocolate
+vanilla
+XXX
+
+Expected Output:
+Sorry we do not carry that.
+Sorry we do not carry that.
+Sorry we do not carry that.

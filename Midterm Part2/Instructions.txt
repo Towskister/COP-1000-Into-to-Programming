@@ -1,0 +1,21 @@
+PART II:  Repetition Structures - Average Test Scores
+
+Write the Flowchart and Python code for the following programming problem based on the provided pseudocode.
+
+Write a program that will allow a teacher to calculate the average test score for a certain number of students.  The teacher can enter the number of students who took the test, and then the score for each student.  Your program will then calculate the average score and print out the results.  Your program must use the appropriate loop, modules, and run multiple times for different sets of test scores.
+
+Your sample output might look as follows:
+
+How many students took the test: 9
+Enter their score: 98
+Enter their score: 78
+Enter their score: 99
+Enter their score: 92
+Enter their score: 87
+Enter their score: 100
+Enter their score: 88
+Enter their score: 81
+Enter their score: 79
+The average test score is 89
+Do you want to end program? (Enter no to process a new set of scores): yes
+
