@@ -1,0 +1,15 @@
+Summary
+In this lab, you open a file and read input from that file in a prewritten Python program. The program should read and print the names of flowers and whether they are grown in shade or sun. The data is stored in the input file named flowers.dat.
+
+Instructions
+Open the source code file named Flowers.py
+Write a while loop to read the input until EOF is reached.
+In the body of the loop, print the name of each flower and where it can be grown (sun or shade).
+Execute the program.
+Grading
+
+Input
+
+Expected Output
+Astilbe grows in the ShadeMarigold grows in the SunBegonia grows in the SunPrimrose grows in the ShadeCosmos grows in the SunDahlia grows in the SunGeranium grows in the SunFoxglove grows in the ShadeTrillium grows in the ShadePansy grows in the SunPetunia grows in the SunDaisy grows in the SunAster grows in the Sun
+0
