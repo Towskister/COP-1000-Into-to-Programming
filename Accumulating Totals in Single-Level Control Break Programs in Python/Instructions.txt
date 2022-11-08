@@ -1,0 +1,82 @@
+Summary
+In this lab, you will use what you have learned about accumulating totals in a single-level control break program to complete a Python program.
+
+The program should produce a report for a supermarket manager to help her keep track of hours worked by her part-time employees. The report should include the day of the week and the number of hours worked for each employee for each day of the week and the total hours for the day of the week.
+
+The student file provided for this lab includes the necessary variable declarations and input and output statements. You need to implement the code that recognizes when a control break should occur. You also need to complete the control break code. Be sure to accumulate the daily totals for all days in the week.
+
+Comments in the code tell you where to write your code.
+
+Instructions
+Study the prewritten code to understand what has already been done.
+Write the control break code
+Execute the program using the following input values:
+Monday
+6
+Tuesday
+2
+Tuesday
+3
+Wednesday
+5
+Wednesday
+3
+Thursday
+6
+Friday
+3
+Friday
+5
+Saturday
+7
+Saturday
+7
+Saturday
+7
+Sunday
+0
+done
+Here is an example of what the program output should look like:
+
+    WEEKLY HOURS WORKED
+
+Enter day of week or done to quit: Thursday
+Enter hours worked: 6
+Enter a day of week or done to quit: done
+    Day Total 6
+Grading
+    Input:
+Monday
+6
+Tuesday
+2
+Tuesday
+3
+Wednesday
+5
+Wednesday
+3
+Thursday
+6
+Friday
+3
+Friday
+5
+Saturday
+7
+Saturday
+7
+Saturday
+7
+Sunday
+0
+done
+
+    Expected Output:
+Day Total 6
+Day Total 5
+Day Total 8
+Day Total 6
+Day Total 8
+Day Total 21
+Day Total 0
