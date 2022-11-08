@@ -4,7 +4,10 @@
 # Output: Names of flowers and the words sun or shade.
 
 # Open input file
-
-# Write while loop here
-    # Print flower name using the following format
-    # print(var + " grows in the " + var2)
+import os
+if os.path.exists("Flowers.dat"):
+    with open('Flowers.dat', 'r') as f:
+        for line in f:
+            print(f"{line.strip()} grows in the {f.readline().strip()}")
+else:
+    print("The file does not exist")

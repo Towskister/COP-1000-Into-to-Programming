@@ -8,8 +8,19 @@ In the body of the loop, print the name of each flower and where it can be grown
 Execute the program.
 Grading
 
-Input
+Input:
 
-Expected Output
-Astilbe grows in the ShadeMarigold grows in the SunBegonia grows in the SunPrimrose grows in the ShadeCosmos grows in the SunDahlia grows in the SunGeranium grows in the SunFoxglove grows in the ShadeTrillium grows in the ShadePansy grows in the SunPetunia grows in the SunDaisy grows in the SunAster grows in the Sun
-0
+Expected Output:
+Astilbe grows in the Shade
+Marigold grows in the Sun
+Begonia grows in the Sun
+Primrose grows in the Shade
+Cosmos grows in the Sun
+Dahlia grows in the Sun
+Geranium grows in the Sun
+Foxglove grows in the Shade
+Trillium grows in the Shade
+Pansy grows in the Sun
+Petunia grows in the Sun
+Daisy grows in the Sun
+Aster grows in the Sun
