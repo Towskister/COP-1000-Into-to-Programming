@@ -13,6 +13,13 @@ hoursTotal = 0  # Hours total for a day
 prevDay = ""  # Previous day of week
 notDone = True  # loop control
 
+
+def dayChange():
+    global hoursTotal
+    print("\t" + DAY_FOOTER + str(hoursTotal))
+    hoursTotal = 0
+
+
 # Print two blank lines.
 print("\n\n")
 # Print heading.
@@ -25,12 +32,24 @@ dayOfWeek = input("Enter day of week or done to quit: ")
 if dayOfWeek == SENTINEL:
     notDone = False
 else:
-    hoursWorked = input("Enter hours worked: ")
+    hoursWorked = int(input("Enter hours worked: "))
     prevDay = dayOfWeek
+    hoursTotal = hoursTotal + hoursWorked
 
-while notDone == True:
-# Implement control break logic here
-# Include work done in the dayChange() function
-
-print("\t" + DAY_FOOTER + str(hoursTotal))
-
+while notDone:
+    # Implement control break logic here
+    dayOfWeek = input("Enter day of week or done to quit: ")
+    if dayOfWeek == SENTINEL:
+        print("\t" + DAY_FOOTER + str(hoursTotal))
+        notDone = False
+    else:
+        if prevDay == dayOfWeek:
+            hoursWorked = int(input("Enter hours worked: "))
+            hoursTotal = hoursTotal + hoursWorked
+            prevDay = dayOfWeek
+        else:
+            dayChange()  # Include work done in the dayChange() function
+            hoursWorked = int(input("Enter hours worked: "))
+            hoursTotal = hoursTotal + hoursWorked
+            prevDay = dayOfWeek
+print("\tUser Quit Program")
