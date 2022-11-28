@@ -1,0 +1,46 @@
+Summary
+In this lab, you complete a partially prewritten Python program that includes a function with no parameters.
+
+The program asks the user if they have preregistered for art show tickets. If the user has preregistered, the program should call a function named discount() that displays the message "You are preregistered and qualify for a 5% discount." If the user has not preregistered, the program should call a function named noDiscount() that displays the message "Sorry, you did not preregister and do not qualify for a 5% discount."
+
+The source code file provided for this lab includes the necessary input statement. Comments are included in the file to help you write the remainder of the program.
+
+Instructions
+Make sure the file ArtShow.py is selected and open.
+Write the Python statements as indicated by the comments.
+Execute the program by clicking the Run button at the bottom of the screen.
+
+Grading
+    ***Pre-registered test***
+
+Input
+Y
+Output
+Did you preregister? Enter Y or N: Y
+
+Expected Output
+You are pre-registered and qualify for a 5% discount
+
+    ***Not pre-registered test***
+
+Input
+N
+Output
+Did you preregister? Enter Y or N: N
+
+Results
+Sorry, you did not pre-register and do not qualify for a 5% discount.
+
+    ***Defined discount function***
+
+Test Contents
+class UnitTests(unittest.TestCase):
+    def test_unit_test(self):
+        self.assertTrue(callable(discount))
+
+    ***Defined noDiscount function***
+
+Test Contents
+class UnitTests(unittest.TestCase):
+    def test_unit_test(self):
+        self.assertTrue(callable(noDiscount))
