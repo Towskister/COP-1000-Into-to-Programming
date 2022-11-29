@@ -1,0 +1,30 @@
+Due Monday by 11:59pm Points 100 Submitting a file upload
+You are going to code the game of craps.
+
+_____________________________________________________________________________
+
+1. You will create 2 dice to roll. You will include a graphic of the dice for each roll.
+
+2. On the first roll, if the dice total a 7 or 11 you win, print to the screen"You win",
+
+3. If the dice total 2, 3, 12 you lose, print to the screen "You lose".
+
+4. Any other number you keep rolling until you win or lose.
+
+5. You can include a loop to prompt for ending or continuing the game so you do not have to rerun the program.
+
+6. When you exit the game, print to the screen the number of wins and loses.
+
+A return value of 1 means you win, a return value of 0 means you lost. You can use a different variable to keep track of your wins and loses.
+
+_______________________________________________________________________________________
+
+1. You are to write the pseudocode: 10 points.
+
+2. You are to create the flowchart: 20 p1oints.
+
+3. The program running (you must include python code) with 3 test cases: 30 points.
+
+4. Your program must use modules/functions, be commented and run correctly: 50 points
+
+Place your pseudo code, flowchart, code and 3 test cases in a word file. Please make sure it is readable and large enough to read. If I can not read it, there will be no points.
