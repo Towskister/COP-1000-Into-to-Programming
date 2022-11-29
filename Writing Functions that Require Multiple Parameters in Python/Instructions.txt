@@ -1,0 +1,42 @@
+Writing Functions that Require Multiple Parameters
+
+Summary
+In this lab, you complete a partially written Python program that includes a function requiring multiple parameters (arguments).
+
+The program prompts the user for two numeric values. Both values should be passed to functions named calculateSum, calculateDifference, and calculateProduct. The functions compute the sum of the two values, the difference between the two values, and the product of the two values.
+
+Each function should perform the appropriate computation and display the results. The source code file provided for this lab includes the variable declarations and the input statements.
+
+Comments are included in the file to help you write the remainder of the program.
+
+Instructions
+Write the Python statements as indicated by the comments.
+Execute the program.
+Grading
+
+    ***calculateProduct prints the correct result***
+
+Input
+20
+20
+
+Expected Output
+400
+
+    ***calculateDifference prints the correct result***
+
+Input
+40
+50
+
+Expected Output
+-10
+
+    ***calculateSum prints correct result***
+
+Input
+100
+200
+
+Expected Output
+300
