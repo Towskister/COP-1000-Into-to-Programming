@@ -39,8 +39,39 @@ Test Contents
 def test_unit_test(self):
     self.assertTrue(computeRate(3) > 299)
 
+
+
+E
+======================================================================
+ERROR: test_unit_test (__main__.UnitTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/root/sandbox65056848/nt-test-dbdde9be.py", line 5, in test_unit_test
+    self.assertTrue(computeRate(3) > 299, msg='[FAILED]')
+TypeError: computeRate() missing 1 required positional argument: 'z'
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+FAILED (errors=1)
+
     ***computeRate() validation 2***
 
 Test Contents
 def test_unit_test(self):
     self.assertTrue(computeRate(3, "C") == 336.0)
+
+
+F
+======================================================================
+FAIL: test_unit_test (__main__.UnitTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/root/sandbox819c8787/nt-test-d97057e7.py", line 5, in test_unit_test
+    self.assertTrue(computeRate(3, "C") == 336.0, msg='[FAILED]')
+AssertionError: False is not true : [FAILED]
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+FAILED (failures=1)

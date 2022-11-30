@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d2671e93-95a4-4a82-b184-6e80c9ba94b2" name="Changes" comment="updated Optional Arguments in Functions in Python.iml">
-      <change beforePath="$PROJECT_DIR$/.idea/Optional Arguments in Functions in Python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Optional Arguments in Functions in Python.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Cornwall.py" beforeDir="false" afterPath="$PROJECT_DIR$/Cornwall.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Instructions.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Instructions.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,15 +23,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "G:/My Drive/COP 1000 Intro Prog/Py Files/Optional Arguments in Functions in Python"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;G:/My Drive/COP 1000 Intro Prog/Py Files/Optional Arguments in Functions in Python&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Cornwall" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Optional Arguments in Functions in Python" />
@@ -68,6 +69,14 @@
       <option name="presentableId" value="Default" />
       <updated>1669775324038</updated>
     </task>
+    <task id="LOCAL-00001" summary="updated Optional Arguments in Functions in Python.iml">
+      <created>1669786366484</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1669786366484</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
