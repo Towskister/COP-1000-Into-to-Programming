@@ -16,4 +16,45 @@ Write the Python statements as indicated by the comments.
 Execute the program by clicking on the Run button at the bottom of the screen.
 Grading
 
-    ***
+    ***Use lower method***
+
+lower()
+
+Description
+Searched your code for a specific pattern:
+
+.+\.lower\(\)
+
+ You can learn more about regular expressions     [here](https://ruby-doc.org/core-2.1.1/Regexp.html).
+
+    ***Use upper method***
+
+upper()
+
+Description
+Searched your code for a specific pattern:
+
+.+\.upper\(\)
+
+ You can learn more about regular expressions     [here](https://ruby-doc.org/core-2.1.1/Regexp.html).
+
+    ***Output Test 1***
+
+Input:
+foo
+FOO
+done
+
+Expected Output:
+Lowercase: foo
+Uppercase: FOO
+
+    ***Output Test 2***
+
+Input:
+BAR
+done
+
+Expected Output:
+Lowercase: bar
+Uppercase: BAR
