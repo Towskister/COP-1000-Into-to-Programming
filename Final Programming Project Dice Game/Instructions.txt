@@ -21,7 +21,7 @@ ________________________________________________________________________________
 
 1. You are to write the pseudocode: 10 points.
 
-2. You are to create the flowchart: 20 p1oints.
+2. You are to create the flowchart: 20 points.
 
 3. The program running (you must include python code) with 3 test cases: 30 points.
 

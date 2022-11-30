@@ -1,0 +1,46 @@
+Optional Arguments in Functions
+
+Summary
+In this lab, you complete a partially written Python program that computes hotel guest rates at Cornwall’s Country Inn.
+
+The program is described in Chapter 9, Exercise 11, in Programming Logic and Design. In this program, you should include a function named computeRate(). It should accept the number of days and calculate the rate at $99.99 per day.
+
+It should optionally include a code for a meal plan. If the code is A, three meals per day are included, and the price is $169.00 per day. If the code is C, breakfast is included, and the price is $112.00 per day. All other codes are invalid.
+
+The function returns the rate to the calling program where it is displayed. The main program asks the user for the number of days in a stay and whether meals should be included; then, based on the user’s response, the program either calls the function or prompts for a meal plan code and calls the function. Comments are included in the file to help you write the remainder of the program.
+
+Instructions
+Make sure the file Cornwall.py is selected and open.
+Write the Python statements as indicated by the comments.
+Execute the program by the clicking the Run button at the bottom of the screen.
+Grading
+
+    ***Output test 1***
+
+Input
+2
+Y
+A
+
+Expected Output
+The rate for your stay is: 338.0
+
+    ***Output test 2***
+
+Input
+2
+N
+Expected Output
+The rate for your stay is: 199.98
+
+    ***computeRate() validation 1***
+
+Test Contents
+def test_unit_test(self):
+    self.assertTrue(computeRate(3) > 299)
+
+    ***computeRate() validation 2***
+
+Test Contents
+def test_unit_test(self):
+    self.assertTrue(computeRate(3, "C") == 336.0)
