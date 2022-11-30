@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d2671e93-95a4-4a82-b184-6e80c9ba94b2" name="Changes" comment="updated Optional Arguments in Functions in Python.iml">
+    <list default="true" id="d2671e93-95a4-4a82-b184-6e80c9ba94b2" name="Changes" comment="updated Optional Arguments in Functions in Python.iml&#10;first attempt failed added try agin.py">
+      <change afterPath="$PROJECT_DIR$/internet.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cornwall.py" beforeDir="false" afterPath="$PROJECT_DIR$/Cornwall.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Instructions.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Instructions.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cornwall.py" beforeDir="false" afterPath="$PROJECT_DIR$/Mines better.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/try again.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,17 +24,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;G:/My Drive/COP 1000 Intro Prog/Py Files/Optional Arguments in Functions in Python&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "G:/My Drive/COP 1000 Intro Prog/Py Files/Optional Arguments in Functions in Python",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
-}</component>
-  <component name="RunManager">
-    <configuration name="Cornwall" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+}]]></component>
+  <component name="RunManager" selected="Python.internet">
+    <configuration name="Mines better" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Optional Arguments in Functions in Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -45,7 +47,28 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Cornwall.py" />
+      <option name="SCRIPT_NAME" value="G:\My Drive\COP 1000 Intro Prog\Py Files\Optional Arguments in Functions in Python\Mines better.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="internet" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Optional Arguments in Functions in Python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/internet.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -56,7 +79,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Cornwall" />
+        <item itemvalue="Python.internet" />
+        <item itemvalue="Python.Mines better" />
       </list>
     </recent_temporary>
   </component>
@@ -76,8 +100,26 @@
       <option name="project" value="LOCAL" />
       <updated>1669786366484</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="updated Optional Arguments in Functions in Python.iml&#10;first attempt failed added try agin.py">
+      <created>1669788812273</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1669788812273</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+        <option value="Space.CommitStatus" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -92,6 +134,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="updated Optional Arguments in Functions in Python.iml" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated Optional Arguments in Functions in Python.iml" />
+    <MESSAGE value="updated Optional Arguments in Functions in Python.iml&#10;first attempt failed added try agin.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated Optional Arguments in Functions in Python.iml&#10;first attempt failed added try agin.py" />
   </component>
 </project>

@@ -1,4 +1,4 @@
-# Cornwall.py - This program computes hotel guest rates.
+# Mines better.py - This program computes hotel guest rates.
 # Input:  Days in stay and meals included
 # Output:  Hotel guest rate
 
