@@ -3,7 +3,6 @@
 # Output:  Hotel guest rate
 
 import re
-import sys
 
 
 def getDays():
@@ -34,6 +33,7 @@ def getMealPlan():
             print("Error! Only letters Y or N allowed!")
             continue
 
+
 def whichPlan():
     while True:
         try:
@@ -57,9 +57,9 @@ def mealPlan(x):
 
 
 # Write computeRate function here
-def computeRate(y, z): # 3 args for days, meal plan confirm, which plan
+def computeRate(y, z):  # 3 args for days, meal plan confirm, which plan
     dayCharge = float(99.99)  # default $99 charge per day
-    if y == "Y": #will exec and add to day charge based on plan selected
+    if y == "Y":  # will exec and add to day charge based on plan selected
         x = whichPlan()
         dayCharge = mealPlan(x)
         return dayCharge * z
