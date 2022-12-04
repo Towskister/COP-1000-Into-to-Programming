@@ -87,10 +87,9 @@ def playCraps():                    # Main game function, broken out to loop for
 
 
 Name = input("what's your name?")   # Asks for username for score output
-playAgain = "Y"                     # Priming
-while playAgain == "Y":
-    win = 0
-    win = playCraps()
+playAgain = "Y"                     # Priming input to make sure the main function loops at least once
+while playAgain == "Y":             # while user still wants to play.
+    win = playCraps()               # Overwrites priming input if a win scenario
     if win == 1:
         scores.append("Win")
     elif win == 0:
