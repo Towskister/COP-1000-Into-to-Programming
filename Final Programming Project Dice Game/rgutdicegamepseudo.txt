@@ -1,0 +1,84 @@
+import sys
+import rand
+
+scores = []
+
+Start
+Name = input(what's your name?)
+playAgain = "Y"
+While playAgain == "Y"
+    win = playcraps()
+    append win to scores []
+    print(
+        Current scores
+        Name
+        Game num, Score
+    )
+    playAgian = input(Do you want to play again? Y or N: )
+sys.exit()
+End
+
+Module playCraps():
+    rollScore = "C"
+    while rollScore = "C"
+        roll1, roll2 = rollDice()
+        rollScore = scoreRolls(roll1, roll2)
+        if rollScore == "A":
+            print "you win"
+            return 1
+        elif rollScore == "B"
+            print "you lose"
+            return 0
+        elif rollScore == "C"
+            rollAgain = input("Press enter to roll again, or "F" to forfeit this run.")
+            if rollAgain == F:
+                print "You decided to forfeit. you lose"
+                return 0
+
+
+    Module scoreRolls(num1, num2)
+        Print('You rolled a ", num1 + num2)
+        if num1 + num2 = 7 or 11
+            return "A"
+        elif num1 + num2 = 2 or 3 or 12
+            return "B"
+        else:
+            return "C"
+    End Module scoreRolls()
+
+
+    Module rollDice():
+        Set number1 = random(1, 6)
+        Set number2 = random(1, 6)
+        if number1 = 1:
+            print(dice1 outputdesign)
+        elif number1 = 2:
+            print(dice2 outputdesign)
+        elif number1 = 3:
+            print(dice3 outputdesign)
+        elif number1 = 4:
+            print(dice4 outputdesign)
+        elif number1 = 5:
+            print(dice5 outputdesign)
+        elif number1 = 6:
+            print(dice6 outputdesign)
+        End if
+        elif number2 = 1:
+            print(dice1 outputdesign)
+        elif number2 = 2:
+            print(dice2 outputdesign)
+        elif number2 = 3:
+            print(dice3 outputdesign)
+        elif number2 = 4:
+            print(dice4 outputdesign)
+        elif number2 = 5:
+            print(dice5 outputdesign)
+        elif number2 = 6:
+            print(dice6 outputdesign)
+        end if
+        return number1, number2
+    End Module rollDice()
+End Module playCraps()
+
+
+
