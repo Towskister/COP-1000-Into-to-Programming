@@ -89,20 +89,20 @@ def playCraps():                    # Main game function, broken out to loop for
 Name = input("what's your name?")   # Asks for username for score output
 playAgain = "Y"                     # Priming input to make sure the main function loops at least once
 while playAgain == "Y":             # while user still wants to play.
-    win = playCraps()               # Overwrites priming input if a win scenario
-    if win == 1:
+    win = playCraps()               # sets a win/lose scenario through main function
+    if win == 1:                    # if statement to write a win or loss to the score list.
         scores.append("Win")
     elif win == 0:
         scores.append("Lose")
-    print(
+    print(                          # prints the current scores up to this point
         "\n","\n",
         "Current Scores","\n",
         Name,"\n",
     )
-    inte = 0
+    inte = 0                        # iteration loop to output each line of the score list
     for x in scores:
         print("Game ", inte + 1, "--------", scores[inte])
         inte += 1
-    playAgain = input("Do you want to play again? Y or N: ")
-    inte = 0
+    playAgain = input("Do you want to play again? Y or N: ")  # play again, will overwrite priming input to exit
+    inte = 0                        # resets the iteration variable so scores print properly next iteration.
 sys.exit()
