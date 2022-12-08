@@ -102,7 +102,7 @@ while playAgain == "Y":             # while user still wants to play.
     inte = 0                        # iteration loop to output each line of the score list
     for x in scores:
         print("Game ", inte + 1, "--------", scores[inte])
-        inte += 1
+        inte += 1                   # advance iteration variable to print next line of list.
     playAgain = input("Do you want to play again? Y or N: ")  # play again, will overwrite priming input to exit
     inte = 0                        # resets the iteration variable so scores print properly next iteration.
 sys.exit()
